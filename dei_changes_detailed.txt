@@ -1,0 +1,28 @@
+DEI Language Removals Report
+
+URL: https://www.appalachiarfbc.org/
+Keyword Removed: underserved
+Full Removed Sentence: our center will support producers by providing localized assistance to access local and regional supply chains, provide the technical assistance needed to access new markets, and assist small- and mid-sized producers in overcoming barriers to market access, with a focus on underserved farmers and food businesses.with a long-standing commitment to the farms and food businesses in the region, the appalachia regional food business center will work to foster a more robust, equitable, and sustainable food economy that benefits business owners, stakeholders, and consumers throughout the entire region.
+Context: access, with a focus on underserved farmers and food businesses.with a
+
+URL: https://www.appalachiarfbc.org/#page
+Keyword Removed: underserved
+Full Removed Sentence: our center will support producers by providing localized assistance to access local and regional supply chains, provide the technical assistance needed to access new markets, and assist small- and mid-sized producers in overcoming barriers to market access, with a focus on underserved farmers and food businesses.with a long-standing commitment to the farms and food businesses in the region, the appalachia regional food business center will work to foster a more robust, equitable, and sustainable food economy that benefits business owners, stakeholders, and consumers throughout the entire region.
+Context: access, with a focus on underserved farmers and food businesses.with a
+
+URL: https://swfoodbiz.org
+Keyword Removed: underserved
+Full Removed Sentence: with the mission to create sustainable, community-driven solutions that prioritize culturally relevant nutrition and holistic wellness, diaspora groceries leads initiatives to mitigate food insecurity, economic empowerment to build a brighter, healthier future for underserved communities.
+Context: a brighter, healthier future for underserved communities.
+
+URL: https://swfoodbiz.org
+Keyword Removed: diversity
+Full Removed Sentence: join diaspora groceries for the diaspora groceries diversity suppliers summit, taking place on november 9th in los angeles.
+Context: groceries for the diaspora groceries diversity suppliers summit, taking place on
+
+URL: https://swfoodbiz.org/about-us/faq/
+Keyword Removed: underserved
+Full Removed Sentence: we are focused on serving businesses across the supply chain in arizona, california, nevada and utah with a focus on underserved communities.
+Context: utah with a focus on underserved communities.
+
+Total Number of Removed Keywords: 5
