@@ -453,3 +453,491 @@
 2025-03-12 10:08:40,600 - Writing results to /Users/joshuabrown/Documents/rf/dei_changes_detailed.txt...
 2025-03-12 10:08:40,602 - Results successfully written.
 2025-03-12 10:08:40,602 - Script finished. Check dei_changes_detailed.txt in the rf directory under Documents.
+2025-03-12 10:26:57,002 - Script execution started...
+2025-03-12 10:26:57,002 - Starting main loop...
+2025-03-12 10:26:57,002 - Processing https://www.appalachiarfbc.org/...
+2025-03-12 10:26:57,002 - Crawling https://www.appalachiarfbc.org/ (depth 0)
+2025-03-12 10:26:57,002 - Fetching https://www.appalachiarfbc.org/...
+2025-03-12 10:26:57,005 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:26:57,234 - https://www.appalachiarfbc.org:443 "GET / HTTP/1.1" 200 33672
+2025-03-12 10:26:57,294 - Checking https://www.appalachiarfbc.org/programming...
+2025-03-12 10:26:57,294 - Fetching https://www.appalachiarfbc.org/programming...
+2025-03-12 10:26:57,295 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:26:57,424 - https://www.appalachiarfbc.org:443 "GET /programming HTTP/1.1" 302 0
+2025-03-12 10:26:57,454 - https://www.appalachiarfbc.org:443 "GET /business-builder-subawards HTTP/1.1" 200 25232
+2025-03-12 10:26:57,504 - Fetching archive for https://www.appalachiarfbc.org/programming...
+2025-03-12 10:27:02,513 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:03,400 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fprogramming&timestamp=202410011426 HTTP/1.1" 200 108
+2025-03-12 10:27:08,408 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:08,922 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fprogramming&timestamp=202410011426 HTTP/1.1" 200 108
+2025-03-12 10:27:13,932 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:14,265 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fprogramming&timestamp=202410011426 HTTP/1.1" 200 108
+2025-03-12 10:27:14,267 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/programming", "archived_snapshots": {}, "timestamp": "202410011426"}
+2025-03-12 10:27:15,272 - Checking https://www.appalachiarfbc.org/resources...
+2025-03-12 10:27:15,273 - Fetching https://www.appalachiarfbc.org/resources...
+2025-03-12 10:27:15,276 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:27:15,550 - https://www.appalachiarfbc.org:443 "GET /resources HTTP/1.1" 302 0
+2025-03-12 10:27:15,581 - https://www.appalachiarfbc.org:443 "GET /faq HTTP/1.1" 200 25929
+2025-03-12 10:27:15,632 - Fetching archive for https://www.appalachiarfbc.org/resources...
+2025-03-12 10:27:20,640 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:26,218 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fresources&timestamp=202410011427 HTTP/1.1" 200 106
+2025-03-12 10:27:31,226 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:31,543 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fresources&timestamp=202410011427 HTTP/1.1" 200 106
+2025-03-12 10:27:36,550 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:36,844 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fresources&timestamp=202410011427 HTTP/1.1" 200 106
+2025-03-12 10:27:36,844 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/resources", "archived_snapshots": {}, "timestamp": "202410011427"}
+2025-03-12 10:27:37,850 - Checking https://www.appalachiarfbc.org/recordings...
+2025-03-12 10:27:37,850 - Fetching https://www.appalachiarfbc.org/recordings...
+2025-03-12 10:27:37,851 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:27:37,976 - https://www.appalachiarfbc.org:443 "GET /recordings HTTP/1.1" 200 23560
+2025-03-12 10:27:38,038 - Fetching archive for https://www.appalachiarfbc.org/recordings...
+2025-03-12 10:27:43,045 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:43,903 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Frecordings&timestamp=202410011427 HTTP/1.1" 200 107
+2025-03-12 10:27:48,908 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:49,207 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Frecordings&timestamp=202410011427 HTTP/1.1" 200 107
+2025-03-12 10:27:54,212 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:27:54,589 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Frecordings&timestamp=202410011427 HTTP/1.1" 200 107
+2025-03-12 10:27:54,590 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/recordings", "archived_snapshots": {}, "timestamp": "202410011427"}
+2025-03-12 10:27:55,596 - Checking https://www.appalachiarfbc.org/guides...
+2025-03-12 10:27:55,596 - Fetching https://www.appalachiarfbc.org/guides...
+2025-03-12 10:27:55,599 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:27:55,809 - https://www.appalachiarfbc.org:443 "GET /guides HTTP/1.1" 200 26042
+2025-03-12 10:27:55,868 - Fetching archive for https://www.appalachiarfbc.org/guides...
+2025-03-12 10:28:00,875 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:02,871 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fguides&timestamp=202410011427 HTTP/1.1" 200 103
+2025-03-12 10:28:07,877 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:08,181 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fguides&timestamp=202410011427 HTTP/1.1" 200 103
+2025-03-12 10:28:13,184 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:13,517 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fguides&timestamp=202410011427 HTTP/1.1" 200 103
+2025-03-12 10:28:13,518 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/guides", "archived_snapshots": {}, "timestamp": "202410011427"}
+2025-03-12 10:28:14,524 - Checking https://www.appalachiarfbc.org/about-us-1...
+2025-03-12 10:28:14,524 - Fetching https://www.appalachiarfbc.org/about-us-1...
+2025-03-12 10:28:14,526 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:28:14,666 - https://www.appalachiarfbc.org:443 "GET /about-us-1 HTTP/1.1" 302 0
+2025-03-12 10:28:14,710 - https://www.appalachiarfbc.org:443 "GET /our-partners HTTP/1.1" 200 44322
+2025-03-12 10:28:14,802 - Fetching archive for https://www.appalachiarfbc.org/about-us-1...
+2025-03-12 10:28:19,809 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:20,550 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us-1&timestamp=202410011428 HTTP/1.1" 200 107
+2025-03-12 10:28:25,559 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:25,881 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us-1&timestamp=202410011428 HTTP/1.1" 200 107
+2025-03-12 10:28:30,889 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:31,174 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us-1&timestamp=202410011428 HTTP/1.1" 200 107
+2025-03-12 10:28:31,176 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/about-us-1", "archived_snapshots": {}, "timestamp": "202410011428"}
+2025-03-12 10:28:32,182 - Checking https://www.appalachiarfbc.org/...
+2025-03-12 10:28:32,182 - Fetching https://www.appalachiarfbc.org/...
+2025-03-12 10:28:32,185 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:28:32,282 - https://www.appalachiarfbc.org:443 "GET / HTTP/1.1" 200 33672
+2025-03-12 10:28:32,355 - Fetching archive for https://www.appalachiarfbc.org/...
+2025-03-12 10:28:37,362 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:38,609 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2F&timestamp=202410011428 HTTP/1.1" 200 259
+2025-03-12 10:28:38,614 - Archive found at https://web.archive.org/web/20240929230133/https://www.appalachiarfbc.org/
+2025-03-12 10:28:38,615 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:28:40,595 - https://web.archive.org:443 "GET /web/20240929230133/https://www.appalachiarfbc.org/ HTTP/1.1" 200 None
+2025-03-12 10:28:41,665 - Checking https://www.appalachiarfbc.org/business-builder-subawards...
+2025-03-12 10:28:41,666 - Fetching https://www.appalachiarfbc.org/business-builder-subawards...
+2025-03-12 10:28:41,667 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:28:41,743 - https://www.appalachiarfbc.org:443 "GET /business-builder-subawards HTTP/1.1" 200 25232
+2025-03-12 10:28:41,808 - Fetching archive for https://www.appalachiarfbc.org/business-builder-subawards...
+2025-03-12 10:28:46,816 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:52,163 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fbusiness-builder-subawards&timestamp=202410011428 HTTP/1.1" 200 123
+2025-03-12 10:28:57,168 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:28:57,466 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fbusiness-builder-subawards&timestamp=202410011428 HTTP/1.1" 200 123
+2025-03-12 10:29:02,470 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:02,841 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fbusiness-builder-subawards&timestamp=202410011428 HTTP/1.1" 200 123
+2025-03-12 10:29:02,842 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/business-builder-subawards", "archived_snapshots": {}, "timestamp": "202410011428"}
+2025-03-12 10:29:03,848 - Checking https://www.appalachiarfbc.org/annual-convening...
+2025-03-12 10:29:03,849 - Fetching https://www.appalachiarfbc.org/annual-convening...
+2025-03-12 10:29:03,850 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:29:03,975 - https://www.appalachiarfbc.org:443 "GET /annual-convening HTTP/1.1" 200 24478
+2025-03-12 10:29:04,034 - Fetching archive for https://www.appalachiarfbc.org/annual-convening...
+2025-03-12 10:29:09,041 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:12,717 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fannual-convening&timestamp=202410011429 HTTP/1.1" 200 113
+2025-03-12 10:29:17,725 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:18,123 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fannual-convening&timestamp=202410011429 HTTP/1.1" 200 113
+2025-03-12 10:29:23,127 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:23,444 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fannual-convening&timestamp=202410011429 HTTP/1.1" 200 113
+2025-03-12 10:29:23,446 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/annual-convening", "archived_snapshots": {}, "timestamp": "202410011429"}
+2025-03-12 10:29:24,452 - Checking https://www.appalachiarfbc.org/#page...
+2025-03-12 10:29:24,452 - Fetching https://www.appalachiarfbc.org/#page...
+2025-03-12 10:29:24,455 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:29:24,572 - https://www.appalachiarfbc.org:443 "GET / HTTP/1.1" 200 33672
+2025-03-12 10:29:24,634 - Fetching archive for https://www.appalachiarfbc.org/#page...
+2025-03-12 10:29:29,642 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:31,859 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2F%23page&timestamp=202410011429 HTTP/1.1" 200 264
+2025-03-12 10:29:31,861 - Archive found at https://web.archive.org/web/20240929230133/https://www.appalachiarfbc.org/
+2025-03-12 10:29:31,863 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:29:32,191 - https://web.archive.org:443 "GET /web/20240929230133/https://www.appalachiarfbc.org/ HTTP/1.1" 200 None
+2025-03-12 10:29:33,303 - Checking https://www.appalachiarfbc.org/technical-assistance...
+2025-03-12 10:29:33,303 - Fetching https://www.appalachiarfbc.org/technical-assistance...
+2025-03-12 10:29:33,305 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:29:33,380 - https://www.appalachiarfbc.org:443 "GET /technical-assistance HTTP/1.1" 200 23817
+2025-03-12 10:29:33,435 - Fetching archive for https://www.appalachiarfbc.org/technical-assistance...
+2025-03-12 10:29:38,443 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:39,418 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ftechnical-assistance&timestamp=202410011429 HTTP/1.1" 200 299
+2025-03-12 10:29:39,419 - Archive found at https://web.archive.org/web/20240929114724/https://www.appalachiarfbc.org/technical-assistance
+2025-03-12 10:29:39,421 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:29:40,583 - https://web.archive.org:443 "GET /web/20240929114724/https://www.appalachiarfbc.org/technical-assistance HTTP/1.1" 200 None
+2025-03-12 10:29:41,620 - Checking https://www.appalachiarfbc.org/stories...
+2025-03-12 10:29:41,620 - Fetching https://www.appalachiarfbc.org/stories...
+2025-03-12 10:29:41,623 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:29:41,706 - https://www.appalachiarfbc.org:443 "GET /stories HTTP/1.1" 200 20430
+2025-03-12 10:29:41,759 - Fetching archive for https://www.appalachiarfbc.org/stories...
+2025-03-12 10:29:46,767 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:47,558 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fstories&timestamp=202410011429 HTTP/1.1" 200 104
+2025-03-12 10:29:52,563 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:53,066 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fstories&timestamp=202410011429 HTTP/1.1" 200 104
+2025-03-12 10:29:58,070 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:29:58,371 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fstories&timestamp=202410011429 HTTP/1.1" 200 104
+2025-03-12 10:29:58,372 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/stories", "archived_snapshots": {}, "timestamp": "202410011429"}
+2025-03-12 10:29:59,378 - Checking https://www.appalachiarfbc.org/non-discrimination-statement...
+2025-03-12 10:29:59,378 - Fetching https://www.appalachiarfbc.org/non-discrimination-statement...
+2025-03-12 10:29:59,381 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:29:59,462 - https://www.appalachiarfbc.org:443 "GET /non-discrimination-statement HTTP/1.1" 200 21378
+2025-03-12 10:29:59,514 - Fetching archive for https://www.appalachiarfbc.org/non-discrimination-statement...
+2025-03-12 10:30:04,519 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:06,332 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fnon-discrimination-statement&timestamp=202410011429 HTTP/1.1" 200 125
+2025-03-12 10:30:11,340 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:11,709 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fnon-discrimination-statement&timestamp=202410011429 HTTP/1.1" 200 125
+2025-03-12 10:30:16,718 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:17,001 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fnon-discrimination-statement&timestamp=202410011429 HTTP/1.1" 200 125
+2025-03-12 10:30:17,002 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/non-discrimination-statement", "archived_snapshots": {}, "timestamp": "202410011429"}
+2025-03-12 10:30:18,003 - Checking https://www.appalachiarfbc.org/cart...
+2025-03-12 10:30:18,003 - Fetching https://www.appalachiarfbc.org/cart...
+2025-03-12 10:30:18,005 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:30:18,296 - https://www.appalachiarfbc.org:443 "GET /cart HTTP/1.1" 200 None
+2025-03-12 10:30:18,344 - Fetching archive for https://www.appalachiarfbc.org/cart...
+2025-03-12 10:30:23,351 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:24,210 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fcart&timestamp=202410011430 HTTP/1.1" 200 267
+2025-03-12 10:30:24,210 - Archive found at https://web.archive.org/web/20240929230116/https://www.appalachiarfbc.org/cart
+2025-03-12 10:30:24,212 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:30:26,852 - https://web.archive.org:443 "GET /web/20240929230116/https://www.appalachiarfbc.org/cart HTTP/1.1" 200 None
+2025-03-12 10:30:27,880 - Checking https://www.appalachiarfbc.org/press-releases...
+2025-03-12 10:30:27,880 - Fetching https://www.appalachiarfbc.org/press-releases...
+2025-03-12 10:30:27,881 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:30:28,045 - https://www.appalachiarfbc.org:443 "GET /press-releases HTTP/1.1" 200 23059
+2025-03-12 10:30:28,103 - Fetching archive for https://www.appalachiarfbc.org/press-releases...
+2025-03-12 10:30:33,111 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:35,543 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fpress-releases&timestamp=202410011430 HTTP/1.1" 200 287
+2025-03-12 10:30:35,544 - Archive found at https://web.archive.org/web/20241003080104/https://www.appalachiarfbc.org/press-releases
+2025-03-12 10:30:35,546 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:30:39,586 - https://web.archive.org:443 "GET /web/20241003080104/https://www.appalachiarfbc.org/press-releases HTTP/1.1" 200 None
+2025-03-12 10:30:40,616 - Checking https://www.appalachiarfbc.org/faq...
+2025-03-12 10:30:40,616 - Fetching https://www.appalachiarfbc.org/faq...
+2025-03-12 10:30:40,618 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:30:40,697 - https://www.appalachiarfbc.org:443 "GET /faq HTTP/1.1" 200 25929
+2025-03-12 10:30:40,759 - Fetching archive for https://www.appalachiarfbc.org/faq...
+2025-03-12 10:30:45,766 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:51,116 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ffaq&timestamp=202410011430 HTTP/1.1" 200 100
+2025-03-12 10:30:56,120 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:30:56,435 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ffaq&timestamp=202410011430 HTTP/1.1" 200 100
+2025-03-12 10:31:01,444 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:01,737 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ffaq&timestamp=202410011430 HTTP/1.1" 200 100
+2025-03-12 10:31:01,738 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/faq", "archived_snapshots": {}, "timestamp": "202410011430"}
+2025-03-12 10:31:02,739 - Checking https://www.appalachiarfbc.org/our-partners...
+2025-03-12 10:31:02,739 - Fetching https://www.appalachiarfbc.org/our-partners...
+2025-03-12 10:31:02,742 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:31:02,885 - https://www.appalachiarfbc.org:443 "GET /our-partners HTTP/1.1" 200 44322
+2025-03-12 10:31:02,983 - Fetching archive for https://www.appalachiarfbc.org/our-partners...
+2025-03-12 10:31:07,993 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:13,543 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Four-partners&timestamp=202410011431 HTTP/1.1" 200 109
+2025-03-12 10:31:18,551 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:18,875 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Four-partners&timestamp=202410011431 HTTP/1.1" 200 109
+2025-03-12 10:31:23,881 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:24,210 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Four-partners&timestamp=202410011431 HTTP/1.1" 200 109
+2025-03-12 10:31:24,211 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/our-partners", "archived_snapshots": {}, "timestamp": "202410011431"}
+2025-03-12 10:31:25,216 - Checking https://www.appalachiarfbc.org/about-us...
+2025-03-12 10:31:25,217 - Fetching https://www.appalachiarfbc.org/about-us...
+2025-03-12 10:31:25,219 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:31:25,404 - https://www.appalachiarfbc.org:443 "GET /about-us HTTP/1.1" 404 18357
+2025-03-12 10:31:25,452 - Fetching archive for https://www.appalachiarfbc.org/about-us...
+2025-03-12 10:31:30,457 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:35,808 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us&timestamp=202410011431 HTTP/1.1" 200 105
+2025-03-12 10:31:40,814 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:41,101 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us&timestamp=202410011431 HTTP/1.1" 200 105
+2025-03-12 10:31:46,107 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:46,393 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us&timestamp=202410011431 HTTP/1.1" 200 105
+2025-03-12 10:31:46,394 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/about-us", "archived_snapshots": {}, "timestamp": "202410011431"}
+2025-03-12 10:31:47,398 - Checking https://www.appalachiarfbc.org/connect...
+2025-03-12 10:31:47,399 - Fetching https://www.appalachiarfbc.org/connect...
+2025-03-12 10:31:47,401 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:31:47,481 - https://www.appalachiarfbc.org:443 "GET /connect HTTP/1.1" 200 28869
+2025-03-12 10:31:47,543 - Fetching archive for https://www.appalachiarfbc.org/connect...
+2025-03-12 10:31:52,551 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:53,481 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fconnect&timestamp=202410011431 HTTP/1.1" 200 104
+2025-03-12 10:31:58,488 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:31:58,922 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fconnect&timestamp=202410011431 HTTP/1.1" 200 104
+2025-03-12 10:32:03,927 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:04,236 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fconnect&timestamp=202410011431 HTTP/1.1" 200 104
+2025-03-12 10:32:04,237 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/connect", "archived_snapshots": {}, "timestamp": "202410011431"}
+2025-03-12 10:32:05,239 - Processing https://swfoodbiz.org/...
+2025-03-12 10:32:05,239 - Crawling https://swfoodbiz.org/ (depth 0)
+2025-03-12 10:32:05,239 - Fetching https://swfoodbiz.org/...
+2025-03-12 10:32:05,241 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:32:06,221 - https://swfoodbiz.org:443 "GET / HTTP/1.1" 200 None
+2025-03-12 10:32:06,294 - Checking https://swfoodbiz.org/business-builder-az/...
+2025-03-12 10:32:06,294 - Fetching https://swfoodbiz.org/business-builder-az/...
+2025-03-12 10:32:06,295 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:32:07,148 - https://swfoodbiz.org:443 "GET /business-builder-az/ HTTP/1.1" 200 None
+2025-03-12 10:32:07,208 - Fetching archive for https://swfoodbiz.org/business-builder-az/...
+2025-03-12 10:32:12,215 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:13,345 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-az%2F&timestamp=202410011432 HTTP/1.1" 200 108
+2025-03-12 10:32:18,353 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:18,642 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-az%2F&timestamp=202410011432 HTTP/1.1" 200 108
+2025-03-12 10:32:23,646 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:23,924 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-az%2F&timestamp=202410011432 HTTP/1.1" 200 108
+2025-03-12 10:32:23,925 - ERROR fetching archive: {"url": "https://swfoodbiz.org/business-builder-az/", "archived_snapshots": {}, "timestamp": "202410011432"}
+2025-03-12 10:32:24,931 - Checking https://swfoodbiz.org/...
+2025-03-12 10:32:24,931 - Fetching https://swfoodbiz.org/...
+2025-03-12 10:32:24,933 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:32:25,837 - https://swfoodbiz.org:443 "GET / HTTP/1.1" 200 None
+2025-03-12 10:32:25,921 - Fetching archive for https://swfoodbiz.org/...
+2025-03-12 10:32:30,929 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:36,380 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2F&timestamp=202410011432 HTTP/1.1" 200 88
+2025-03-12 10:32:41,389 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:41,803 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2F&timestamp=202410011432 HTTP/1.1" 200 88
+2025-03-12 10:32:46,819 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:47,289 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2F&timestamp=202410011432 HTTP/1.1" 200 88
+2025-03-12 10:32:47,290 - ERROR fetching archive: {"url": "https://swfoodbiz.org/", "archived_snapshots": {}, "timestamp": "202410011432"}
+2025-03-12 10:32:48,294 - Checking https://swfoodbiz.org/programs/...
+2025-03-12 10:32:48,294 - Fetching https://swfoodbiz.org/programs/...
+2025-03-12 10:32:48,296 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:32:49,237 - https://swfoodbiz.org:443 "GET /programs/ HTTP/1.1" 200 None
+2025-03-12 10:32:49,289 - Fetching archive for https://swfoodbiz.org/programs/...
+2025-03-12 10:32:54,296 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:32:55,659 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fprograms%2F&timestamp=202410011432 HTTP/1.1" 200 259
+2025-03-12 10:32:55,660 - Archive found at https://web.archive.org/web/20240710085524/https://swfoodbiz.org/programs/
+2025-03-12 10:32:55,663 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:32:57,229 - https://web.archive.org:443 "GET /web/20240710085524/https://swfoodbiz.org/programs/ HTTP/1.1" 200 None
+2025-03-12 10:32:58,271 - Checking https://swfoodbiz.org/business-builder/...
+2025-03-12 10:32:58,272 - Fetching https://swfoodbiz.org/business-builder/...
+2025-03-12 10:32:58,274 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:32:59,532 - https://swfoodbiz.org:443 "GET /business-builder/ HTTP/1.1" 200 None
+2025-03-12 10:32:59,617 - Fetching archive for https://swfoodbiz.org/business-builder/...
+2025-03-12 10:33:04,622 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:05,601 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder%2F&timestamp=202410011432 HTTP/1.1" 200 275
+2025-03-12 10:33:05,602 - Archive found at https://web.archive.org/web/20250116192635/https://swfoodbiz.org/business-builder/
+2025-03-12 10:33:05,603 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:33:07,192 - https://web.archive.org:443 "GET /web/20250116192635/https://swfoodbiz.org/business-builder/ HTTP/1.1" 200 None
+2025-03-12 10:33:08,298 - Checking https://swfoodbiz.org/business-builder-nv/...
+2025-03-12 10:33:08,298 - Fetching https://swfoodbiz.org/business-builder-nv/...
+2025-03-12 10:33:08,301 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:33:09,360 - https://swfoodbiz.org:443 "GET /business-builder-nv/ HTTP/1.1" 200 None
+2025-03-12 10:33:09,407 - Fetching archive for https://swfoodbiz.org/business-builder-nv/...
+2025-03-12 10:33:14,414 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:15,600 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-nv%2F&timestamp=202410011433 HTTP/1.1" 200 281
+2025-03-12 10:33:15,601 - Archive found at https://web.archive.org/web/20250126224457/https://swfoodbiz.org/business-builder-nv/
+2025-03-12 10:33:15,604 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:33:16,365 - https://web.archive.org:443 "GET /web/20250126224457/https://swfoodbiz.org/business-builder-nv/ HTTP/1.1" 200 None
+2025-03-12 10:33:17,426 - Checking https://swfoodbiz.org/business-builder-ca/...
+2025-03-12 10:33:17,426 - Fetching https://swfoodbiz.org/business-builder-ca/...
+2025-03-12 10:33:17,428 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:33:18,351 - https://swfoodbiz.org:443 "GET /business-builder-ca/ HTTP/1.1" 200 None
+2025-03-12 10:33:18,433 - Fetching archive for https://swfoodbiz.org/business-builder-ca/...
+2025-03-12 10:33:23,440 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:24,579 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-ca%2F&timestamp=202410011433 HTTP/1.1" 200 108
+2025-03-12 10:33:29,587 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:29,994 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-ca%2F&timestamp=202410011433 HTTP/1.1" 200 108
+2025-03-12 10:33:35,002 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:35,291 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-ca%2F&timestamp=202410011433 HTTP/1.1" 200 108
+2025-03-12 10:33:35,293 - ERROR fetching archive: {"url": "https://swfoodbiz.org/business-builder-ca/", "archived_snapshots": {}, "timestamp": "202410011433"}
+2025-03-12 10:33:36,299 - Checking https://swfoodbiz.org/usda-non-discrimination-statement/...
+2025-03-12 10:33:36,299 - Fetching https://swfoodbiz.org/usda-non-discrimination-statement/...
+2025-03-12 10:33:36,301 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:33:37,318 - https://swfoodbiz.org:443 "GET /usda-non-discrimination-statement/ HTTP/1.1" 200 None
+2025-03-12 10:33:37,367 - Fetching archive for https://swfoodbiz.org/usda-non-discrimination-statement/...
+2025-03-12 10:33:42,374 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:43,598 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fusda-non-discrimination-statement%2F&timestamp=202410011433 HTTP/1.1" 200 309
+2025-03-12 10:33:43,599 - Archive found at https://web.archive.org/web/20250117002804/https://swfoodbiz.org/usda-non-discrimination-statement/
+2025-03-12 10:33:43,601 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:33:44,503 - https://web.archive.org:443 "GET /web/20250117002804/https://swfoodbiz.org/usda-non-discrimination-statement/ HTTP/1.1" 200 None
+2025-03-12 10:33:45,530 - Checking https://swfoodbiz.org/impact/...
+2025-03-12 10:33:45,530 - Fetching https://swfoodbiz.org/impact/...
+2025-03-12 10:33:45,532 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:33:46,350 - https://swfoodbiz.org:443 "GET /impact/ HTTP/1.1" 200 None
+2025-03-12 10:33:46,461 - Fetching archive for https://swfoodbiz.org/impact/...
+2025-03-12 10:33:51,468 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:53,398 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fimpact%2F&timestamp=202410011433 HTTP/1.1" 200 95
+2025-03-12 10:33:58,405 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:33:58,690 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fimpact%2F&timestamp=202410011433 HTTP/1.1" 200 95
+2025-03-12 10:34:03,699 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:04,023 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fimpact%2F&timestamp=202410011433 HTTP/1.1" 200 95
+2025-03-12 10:34:04,024 - ERROR fetching archive: {"url": "https://swfoodbiz.org/impact/", "archived_snapshots": {}, "timestamp": "202410011433"}
+2025-03-12 10:34:05,027 - Checking https://swfoodbiz.org/resource/wildfire-resilience-program/...
+2025-03-12 10:34:05,028 - Fetching https://swfoodbiz.org/resource/wildfire-resilience-program/...
+2025-03-12 10:34:05,030 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:34:05,988 - https://swfoodbiz.org:443 "GET /resource/wildfire-resilience-program/ HTTP/1.1" 200 None
+2025-03-12 10:34:06,043 - Fetching archive for https://swfoodbiz.org/resource/wildfire-resilience-program/...
+2025-03-12 10:34:11,049 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:11,848 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwildfire-resilience-program%2F&timestamp=202410011434 HTTP/1.1" 200 125
+2025-03-12 10:34:16,856 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:17,161 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwildfire-resilience-program%2F&timestamp=202410011434 HTTP/1.1" 200 125
+2025-03-12 10:34:22,171 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:22,442 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwildfire-resilience-program%2F&timestamp=202410011434 HTTP/1.1" 200 125
+2025-03-12 10:34:22,443 - ERROR fetching archive: {"url": "https://swfoodbiz.org/resource/wildfire-resilience-program/", "archived_snapshots": {}, "timestamp": "202410011434"}
+2025-03-12 10:34:23,448 - Checking https://swfoodbiz.org/disaster-relief-resources/...
+2025-03-12 10:34:23,449 - Fetching https://swfoodbiz.org/disaster-relief-resources/...
+2025-03-12 10:34:23,451 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:34:24,368 - https://swfoodbiz.org:443 "GET /disaster-relief-resources/ HTTP/1.1" 200 None
+2025-03-12 10:34:24,440 - Fetching archive for https://swfoodbiz.org/disaster-relief-resources/...
+2025-03-12 10:34:29,447 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:30,761 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fdisaster-relief-resources%2F&timestamp=202410011434 HTTP/1.1" 200 114
+2025-03-12 10:34:35,771 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:36,054 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fdisaster-relief-resources%2F&timestamp=202410011434 HTTP/1.1" 200 114
+2025-03-12 10:34:41,062 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:41,405 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fdisaster-relief-resources%2F&timestamp=202410011434 HTTP/1.1" 200 114
+2025-03-12 10:34:41,406 - ERROR fetching archive: {"url": "https://swfoodbiz.org/disaster-relief-resources/", "archived_snapshots": {}, "timestamp": "202410011434"}
+2025-03-12 10:34:42,411 - Checking https://swfoodbiz.org...
+2025-03-12 10:34:42,411 - Fetching https://swfoodbiz.org...
+2025-03-12 10:34:42,413 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:34:43,417 - https://swfoodbiz.org:443 "GET / HTTP/1.1" 200 None
+2025-03-12 10:34:43,494 - Fetching archive for https://swfoodbiz.org...
+2025-03-12 10:34:48,503 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:34:51,403 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org&timestamp=202410011434 HTTP/1.1" 200 240
+2025-03-12 10:34:51,403 - Archive found at https://web.archive.org/web/20241001233608/https://swfoodbiz.org/
+2025-03-12 10:34:51,405 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:34:52,576 - https://web.archive.org:443 "GET /web/20241001233608/https://swfoodbiz.org/ HTTP/1.1" 200 None
+2025-03-12 10:34:53,078 - Encoding detection: Found cp1250 as plausible (best-candidate) for content. With 39 alternatives.
+2025-03-12 10:34:54,096 - Checking https://swfoodbiz.org/about-us/faq/...
+2025-03-12 10:34:54,097 - Fetching https://swfoodbiz.org/about-us/faq/...
+2025-03-12 10:34:54,100 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:34:54,986 - https://swfoodbiz.org:443 "GET /about-us/faq/ HTTP/1.1" 200 None
+2025-03-12 10:34:55,052 - Fetching archive for https://swfoodbiz.org/about-us/faq/...
+2025-03-12 10:35:00,061 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:01,171 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fabout-us%2Ffaq%2F&timestamp=202410011434 HTTP/1.1" 200 267
+2025-03-12 10:35:01,172 - Archive found at https://web.archive.org/web/20241002022513/https://swfoodbiz.org/about-us/faq/
+2025-03-12 10:35:01,174 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:35:02,773 - https://web.archive.org:443 "GET /web/20241002022513/https://swfoodbiz.org/about-us/faq/ HTTP/1.1" 200 None
+2025-03-12 10:35:03,809 - Checking https://swfoodbiz.org/contact-us/...
+2025-03-12 10:35:03,810 - Fetching https://swfoodbiz.org/contact-us/...
+2025-03-12 10:35:03,811 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:35:04,694 - https://swfoodbiz.org:443 "GET /contact-us/ HTTP/1.1" 200 None
+2025-03-12 10:35:04,735 - Fetching archive for https://swfoodbiz.org/contact-us/...
+2025-03-12 10:35:09,740 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:10,969 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fcontact-us%2F&timestamp=202410011435 HTTP/1.1" 200 263
+2025-03-12 10:35:10,971 - Archive found at https://web.archive.org/web/20241002001257/https://swfoodbiz.org/contact-us/
+2025-03-12 10:35:10,974 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:35:13,125 - https://web.archive.org:443 "GET /web/20241002001257/https://swfoodbiz.org/contact-us/ HTTP/1.1" 200 None
+2025-03-12 10:35:14,154 - Checking https://swfoodbiz.org/resource/western-growers-carbon-robotics-case-study-april-2024/...
+2025-03-12 10:35:14,155 - Fetching https://swfoodbiz.org/resource/western-growers-carbon-robotics-case-study-april-2024/...
+2025-03-12 10:35:14,157 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:35:15,110 - https://swfoodbiz.org:443 "GET /resource/western-growers-carbon-robotics-case-study-april-2024/ HTTP/1.1" 200 None
+2025-03-12 10:35:15,149 - Fetching archive for https://swfoodbiz.org/resource/western-growers-carbon-robotics-case-study-april-2024/...
+2025-03-12 10:35:20,154 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:25,523 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwestern-growers-carbon-robotics-case-study-april-2024%2F&timestamp=202410011435 HTTP/1.1" 200 151
+2025-03-12 10:35:30,531 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:30,882 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwestern-growers-carbon-robotics-case-study-april-2024%2F&timestamp=202410011435 HTTP/1.1" 200 151
+2025-03-12 10:35:35,888 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:36,209 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwestern-growers-carbon-robotics-case-study-april-2024%2F&timestamp=202410011435 HTTP/1.1" 200 151
+2025-03-12 10:35:36,210 - ERROR fetching archive: {"url": "https://swfoodbiz.org/resource/western-growers-carbon-robotics-case-study-april-2024/", "archived_snapshots": {}, "timestamp": "202410011435"}
+2025-03-12 10:35:37,215 - Checking https://swfoodbiz.org/about-us/...
+2025-03-12 10:35:37,216 - Fetching https://swfoodbiz.org/about-us/...
+2025-03-12 10:35:37,218 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:35:38,239 - https://swfoodbiz.org:443 "GET /about-us/ HTTP/1.1" 200 None
+2025-03-12 10:35:38,355 - Fetching archive for https://swfoodbiz.org/about-us/...
+2025-03-12 10:35:43,363 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:44,153 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fabout-us%2F&timestamp=202410011435 HTTP/1.1" 200 259
+2025-03-12 10:35:44,154 - Archive found at https://web.archive.org/web/20241002010407/https://swfoodbiz.org/about-us/
+2025-03-12 10:35:44,156 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:35:45,397 - https://web.archive.org:443 "GET /web/20241002010407/https://swfoodbiz.org/about-us/ HTTP/1.1" 200 None
+2025-03-12 10:35:46,505 - Checking https://swfoodbiz.org/resource/whole-farm-micro-farm-agent-list-for-2024-crop-year/...
+2025-03-12 10:35:46,505 - Fetching https://swfoodbiz.org/resource/whole-farm-micro-farm-agent-list-for-2024-crop-year/...
+2025-03-12 10:35:46,508 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:35:47,469 - https://swfoodbiz.org:443 "GET /resource/whole-farm-micro-farm-agent-list-for-2024-crop-year/ HTTP/1.1" 200 None
+2025-03-12 10:35:47,510 - Fetching archive for https://swfoodbiz.org/resource/whole-farm-micro-farm-agent-list-for-2024-crop-year/...
+2025-03-12 10:35:52,513 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:35:57,910 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwhole-farm-micro-farm-agent-list-for-2024-crop-year%2F&timestamp=202410011435 HTTP/1.1" 200 149
+2025-03-12 10:36:02,919 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:03,222 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwhole-farm-micro-farm-agent-list-for-2024-crop-year%2F&timestamp=202410011435 HTTP/1.1" 200 149
+2025-03-12 10:36:08,229 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:08,541 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresource%2Fwhole-farm-micro-farm-agent-list-for-2024-crop-year%2F&timestamp=202410011435 HTTP/1.1" 200 149
+2025-03-12 10:36:08,542 - ERROR fetching archive: {"url": "https://swfoodbiz.org/resource/whole-farm-micro-farm-agent-list-for-2024-crop-year/", "archived_snapshots": {}, "timestamp": "202410011435"}
+2025-03-12 10:36:09,545 - Checking https://swfoodbiz.org/events/center-events/...
+2025-03-12 10:36:09,545 - Fetching https://swfoodbiz.org/events/center-events/...
+2025-03-12 10:36:09,547 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:36:10,430 - https://swfoodbiz.org:443 "GET /events/center-events/ HTTP/1.1" 200 None
+2025-03-12 10:36:10,479 - Fetching archive for https://swfoodbiz.org/events/center-events/...
+2025-03-12 10:36:15,487 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:20,820 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fevents%2Fcenter-events%2F&timestamp=202410011436 HTTP/1.1" 200 109
+2025-03-12 10:36:25,829 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:26,136 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fevents%2Fcenter-events%2F&timestamp=202410011436 HTTP/1.1" 200 109
+2025-03-12 10:36:31,141 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:31,469 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fevents%2Fcenter-events%2F&timestamp=202410011436 HTTP/1.1" 200 109
+2025-03-12 10:36:31,470 - ERROR fetching archive: {"url": "https://swfoodbiz.org/events/center-events/", "archived_snapshots": {}, "timestamp": "202410011436"}
+2025-03-12 10:36:32,471 - Checking https://swfoodbiz.org/resources-2/...
+2025-03-12 10:36:32,472 - Fetching https://swfoodbiz.org/resources-2/...
+2025-03-12 10:36:32,474 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:36:33,345 - https://swfoodbiz.org:443 "GET /resources-2/ HTTP/1.1" 404 None
+2025-03-12 10:36:33,390 - Fetching archive for https://swfoodbiz.org/resources-2/...
+2025-03-12 10:36:38,415 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:39,692 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresources-2%2F&timestamp=202410011436 HTTP/1.1" 200 100
+2025-03-12 10:36:44,697 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:45,007 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresources-2%2F&timestamp=202410011436 HTTP/1.1" 200 100
+2025-03-12 10:36:50,017 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:50,295 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresources-2%2F&timestamp=202410011436 HTTP/1.1" 200 100
+2025-03-12 10:36:50,296 - ERROR fetching archive: {"url": "https://swfoodbiz.org/resources-2/", "archived_snapshots": {}, "timestamp": "202410011436"}
+2025-03-12 10:36:51,302 - Checking http://swfoodbiz.org/events/...
+2025-03-12 10:36:51,302 - Fetching http://swfoodbiz.org/events/...
+2025-03-12 10:36:51,305 - Starting new HTTP connection (1): swfoodbiz.org:80
+2025-03-12 10:36:51,449 - http://swfoodbiz.org:80 "GET /events/ HTTP/1.1" 301 162
+2025-03-12 10:36:51,453 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:36:52,312 - https://swfoodbiz.org:443 "GET /events/ HTTP/1.1" 200 None
+2025-03-12 10:36:52,360 - Fetching archive for http://swfoodbiz.org/events/...
+2025-03-12 10:36:57,368 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:36:58,448 - https://archive.org:443 "GET /wayback/available?url=http%3A%2F%2Fswfoodbiz.org%2Fevents%2F&timestamp=202410011436 HTTP/1.1" 200 94
+2025-03-12 10:37:03,509 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:03,795 - https://archive.org:443 "GET /wayback/available?url=http%3A%2F%2Fswfoodbiz.org%2Fevents%2F&timestamp=202410011436 HTTP/1.1" 200 94
+2025-03-12 10:37:08,805 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:09,099 - https://archive.org:443 "GET /wayback/available?url=http%3A%2F%2Fswfoodbiz.org%2Fevents%2F&timestamp=202410011436 HTTP/1.1" 200 94
+2025-03-12 10:37:09,101 - ERROR fetching archive: {"url": "http://swfoodbiz.org/events/", "archived_snapshots": {}, "timestamp": "202410011436"}
+2025-03-12 10:37:10,106 - Checking http://swfoodbiz.org/business-builder/...
+2025-03-12 10:37:10,107 - Fetching http://swfoodbiz.org/business-builder/...
+2025-03-12 10:37:10,110 - Starting new HTTP connection (1): swfoodbiz.org:80
+2025-03-12 10:37:10,154 - http://swfoodbiz.org:80 "GET /business-builder/ HTTP/1.1" 301 162
+2025-03-12 10:37:10,157 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:37:11,132 - https://swfoodbiz.org:443 "GET /business-builder/ HTTP/1.1" 200 None
+2025-03-12 10:37:11,206 - Fetching archive for http://swfoodbiz.org/business-builder/...
+2025-03-12 10:37:16,215 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:17,070 - https://archive.org:443 "GET /wayback/available?url=http%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder%2F&timestamp=202410011437 HTTP/1.1" 200 274
+2025-03-12 10:37:17,070 - Archive found at https://web.archive.org/web/20250116192635/https://swfoodbiz.org/business-builder/
+2025-03-12 10:37:17,073 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:37:17,481 - https://web.archive.org:443 "GET /web/20250116192635/https://swfoodbiz.org/business-builder/ HTTP/1.1" 200 None
+2025-03-12 10:37:18,596 - Checking https://swfoodbiz.org/resources/...
+2025-03-12 10:37:18,597 - Fetching https://swfoodbiz.org/resources/...
+2025-03-12 10:37:18,599 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:37:19,594 - https://swfoodbiz.org:443 "GET /resources/ HTTP/1.1" 200 None
+2025-03-12 10:37:19,684 - Encoding detection: utf_8 is most likely the one.
+2025-03-12 10:37:19,713 - Fetching archive for https://swfoodbiz.org/resources/...
+2025-03-12 10:37:24,721 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:25,726 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fresources%2F&timestamp=202410011437 HTTP/1.1" 200 261
+2025-03-12 10:37:25,727 - Archive found at https://web.archive.org/web/20241001214848/https://swfoodbiz.org/resources/
+2025-03-12 10:37:25,730 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:37:26,537 - https://web.archive.org:443 "GET /web/20241001214848/https://swfoodbiz.org/resources/ HTTP/1.1" 200 None
+2025-03-12 10:37:26,637 - Encoding detection: utf_8 is most likely the one.
+2025-03-12 10:37:27,669 - Checking https://swfoodbiz.org/business-builder-ut/...
+2025-03-12 10:37:27,669 - Fetching https://swfoodbiz.org/business-builder-ut/...
+2025-03-12 10:37:27,671 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:37:28,698 - https://swfoodbiz.org:443 "GET /business-builder-ut/ HTTP/1.1" 200 None
+2025-03-12 10:37:28,776 - Fetching archive for https://swfoodbiz.org/business-builder-ut/...
+2025-03-12 10:37:33,785 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:39,121 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-ut%2F&timestamp=202410011437 HTTP/1.1" 200 108
+2025-03-12 10:37:44,130 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:44,477 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-ut%2F&timestamp=202410011437 HTTP/1.1" 200 108
+2025-03-12 10:37:49,484 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:50,042 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fbusiness-builder-ut%2F&timestamp=202410011437 HTTP/1.1" 200 108
+2025-03-12 10:37:50,044 - ERROR fetching archive: {"url": "https://swfoodbiz.org/business-builder-ut/", "archived_snapshots": {}, "timestamp": "202410011437"}
+2025-03-12 10:37:51,050 - Checking https://swfoodbiz.org/events/...
+2025-03-12 10:37:51,050 - Fetching https://swfoodbiz.org/events/...
+2025-03-12 10:37:51,053 - Starting new HTTPS connection (1): swfoodbiz.org:443
+2025-03-12 10:37:51,891 - https://swfoodbiz.org:443 "GET /events/ HTTP/1.1" 200 None
+2025-03-12 10:37:51,934 - Fetching archive for https://swfoodbiz.org/events/...
+2025-03-12 10:37:56,942 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:37:57,825 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fevents%2F&timestamp=202410011437 HTTP/1.1" 200 95
+2025-03-12 10:38:02,834 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:38:03,378 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fevents%2F&timestamp=202410011437 HTTP/1.1" 200 95
+2025-03-12 10:38:08,385 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:38:08,677 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fswfoodbiz.org%2Fevents%2F&timestamp=202410011437 HTTP/1.1" 200 95
+2025-03-12 10:38:08,679 - ERROR fetching archive: {"url": "https://swfoodbiz.org/events/", "archived_snapshots": {}, "timestamp": "202410011437"}
+2025-03-12 10:38:09,682 - Processing complete. Found 5 changes.
+2025-03-12 10:38:09,683 - Writing results to /Users/joshuabrown/Documents/rf/dei_changes_detailed.txt...
+2025-03-12 10:38:09,685 - Results successfully written.
+2025-03-12 10:38:09,685 - Script finished. Check dei_changes_detailed.txt in the rf directory under Documents.
