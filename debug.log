@@ -235,3 +235,221 @@
 2025-03-12 09:51:35,610 - Writing results to /Users/joshuabrown/Desktop/dei_changes_detailed.txt...
 2025-03-12 09:51:35,611 - Results successfully written.
 2025-03-12 09:51:35,611 - Script finished. Check dei_changes_detailed.txt on your desktop.
+2025-03-12 10:03:18,841 - Script execution started...
+2025-03-12 10:03:18,842 - Starting main loop...
+2025-03-12 10:03:18,842 - Processing https://www.appalachiarfbc.org/...
+2025-03-12 10:03:18,842 - Crawling https://www.appalachiarfbc.org/ (depth 0)
+2025-03-12 10:03:18,842 - Fetching https://www.appalachiarfbc.org/...
+2025-03-12 10:03:18,845 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:03:18,998 - https://www.appalachiarfbc.org:443 "GET / HTTP/1.1" 200 33672
+2025-03-12 10:03:19,071 - Checking https://www.appalachiarfbc.org/recordings...
+2025-03-12 10:03:19,071 - Fetching https://www.appalachiarfbc.org/recordings...
+2025-03-12 10:03:19,072 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:03:19,192 - https://www.appalachiarfbc.org:443 "GET /recordings HTTP/1.1" 200 23560
+2025-03-12 10:03:19,252 - Fetching archive for https://www.appalachiarfbc.org/recordings...
+2025-03-12 10:03:24,264 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:03:26,505 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Frecordings&timestamp=202410011403 HTTP/1.1" 200 107
+2025-03-12 10:03:31,515 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:03:32,772 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Frecordings&timestamp=202410011403 HTTP/1.1" 200 107
+2025-03-12 10:03:37,783 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:03:38,523 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Frecordings&timestamp=202410011403 HTTP/1.1" 200 107
+2025-03-12 10:03:38,525 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/recordings", "archived_snapshots": {}, "timestamp": "202410011403"}
+2025-03-12 10:03:39,531 - Checking https://www.appalachiarfbc.org/guides...
+2025-03-12 10:03:39,531 - Fetching https://www.appalachiarfbc.org/guides...
+2025-03-12 10:03:39,534 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:03:39,660 - https://www.appalachiarfbc.org:443 "GET /guides HTTP/1.1" 200 26042
+2025-03-12 10:03:39,734 - Fetching archive for https://www.appalachiarfbc.org/guides...
+2025-03-12 10:03:44,743 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:03:45,489 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fguides&timestamp=202410011403 HTTP/1.1" 200 103
+2025-03-12 10:03:50,499 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:03:50,767 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fguides&timestamp=202410011403 HTTP/1.1" 200 103
+2025-03-12 10:03:55,777 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:03:56,860 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fguides&timestamp=202410011403 HTTP/1.1" 200 103
+2025-03-12 10:03:56,861 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/guides", "archived_snapshots": {}, "timestamp": "202410011403"}
+2025-03-12 10:03:57,865 - Checking https://www.appalachiarfbc.org/our-partners...
+2025-03-12 10:03:57,865 - Fetching https://www.appalachiarfbc.org/our-partners...
+2025-03-12 10:03:57,867 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:03:57,990 - https://www.appalachiarfbc.org:443 "GET /our-partners HTTP/1.1" 200 44322
+2025-03-12 10:03:58,124 - Fetching archive for https://www.appalachiarfbc.org/our-partners...
+2025-03-12 10:04:03,132 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:07,056 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Four-partners&timestamp=202410011403 HTTP/1.1" 200 283
+2025-03-12 10:04:07,061 - Archive found at https://web.archive.org/web/20250117150508/https://www.appalachiarfbc.org/our-partners
+2025-03-12 10:04:07,062 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:04:08,288 - https://web.archive.org:443 "GET /web/20250117150508/https://www.appalachiarfbc.org/our-partners HTTP/1.1" 200 None
+2025-03-12 10:04:09,421 - Checking https://www.appalachiarfbc.org/connect...
+2025-03-12 10:04:09,421 - Fetching https://www.appalachiarfbc.org/connect...
+2025-03-12 10:04:09,424 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:04:09,548 - https://www.appalachiarfbc.org:443 "GET /connect HTTP/1.1" 200 28869
+2025-03-12 10:04:09,620 - Fetching archive for https://www.appalachiarfbc.org/connect...
+2025-03-12 10:04:14,629 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:20,296 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fconnect&timestamp=202410011404 HTTP/1.1" 200 104
+2025-03-12 10:04:25,300 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:26,222 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fconnect&timestamp=202410011404 HTTP/1.1" 200 104
+2025-03-12 10:04:31,232 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:31,710 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fconnect&timestamp=202410011404 HTTP/1.1" 200 104
+2025-03-12 10:04:31,711 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/connect", "archived_snapshots": {}, "timestamp": "202410011404"}
+2025-03-12 10:04:32,716 - Checking https://www.appalachiarfbc.org/stories...
+2025-03-12 10:04:32,716 - Fetching https://www.appalachiarfbc.org/stories...
+2025-03-12 10:04:32,719 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:04:32,839 - https://www.appalachiarfbc.org:443 "GET /stories HTTP/1.1" 200 20430
+2025-03-12 10:04:32,910 - Fetching archive for https://www.appalachiarfbc.org/stories...
+2025-03-12 10:04:37,919 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:43,439 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fstories&timestamp=202410011404 HTTP/1.1" 200 104
+2025-03-12 10:04:48,448 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:48,893 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fstories&timestamp=202410011404 HTTP/1.1" 200 104
+2025-03-12 10:04:53,903 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:04:54,846 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fstories&timestamp=202410011404 HTTP/1.1" 200 104
+2025-03-12 10:04:54,847 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/stories", "archived_snapshots": {}, "timestamp": "202410011404"}
+2025-03-12 10:04:55,853 - Checking https://www.appalachiarfbc.org/about-us...
+2025-03-12 10:04:55,853 - Fetching https://www.appalachiarfbc.org/about-us...
+2025-03-12 10:04:55,856 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:04:56,050 - https://www.appalachiarfbc.org:443 "GET /about-us HTTP/1.1" 404 18357
+2025-03-12 10:04:56,114 - Fetching archive for https://www.appalachiarfbc.org/about-us...
+2025-03-12 10:05:01,122 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:05:03,612 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us&timestamp=202410011404 HTTP/1.1" 200 275
+2025-03-12 10:05:03,613 - Archive found at https://web.archive.org/web/20241001091250/https://www.appalachiarfbc.org/about-us
+2025-03-12 10:05:03,615 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:05:04,507 - https://web.archive.org:443 "GET /web/20241001091250/https://www.appalachiarfbc.org/about-us HTTP/1.1" 200 None
+2025-03-12 10:05:05,630 - Checking https://www.appalachiarfbc.org/...
+2025-03-12 10:05:05,631 - Fetching https://www.appalachiarfbc.org/...
+2025-03-12 10:05:05,633 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:05:05,750 - https://www.appalachiarfbc.org:443 "GET / HTTP/1.1" 200 33672
+2025-03-12 10:05:05,822 - Fetching archive for https://www.appalachiarfbc.org/...
+2025-03-12 10:05:10,830 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:05:16,438 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2F&timestamp=202410011405 HTTP/1.1" 200 97
+2025-03-12 10:05:21,447 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:05:22,248 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2F&timestamp=202410011405 HTTP/1.1" 200 97
+2025-03-12 10:05:27,258 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:05:27,554 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2F&timestamp=202410011405 HTTP/1.1" 200 97
+2025-03-12 10:05:27,556 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/", "archived_snapshots": {}, "timestamp": "202410011405"}
+2025-03-12 10:05:28,557 - Checking https://www.appalachiarfbc.org/cart...
+2025-03-12 10:05:28,557 - Fetching https://www.appalachiarfbc.org/cart...
+2025-03-12 10:05:28,560 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:05:29,009 - https://www.appalachiarfbc.org:443 "GET /cart HTTP/1.1" 200 None
+2025-03-12 10:05:29,068 - Fetching archive for https://www.appalachiarfbc.org/cart...
+2025-03-12 10:05:34,076 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:05:37,608 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fcart&timestamp=202410011405 HTTP/1.1" 200 267
+2025-03-12 10:05:37,609 - Archive found at https://web.archive.org/web/20240929230116/https://www.appalachiarfbc.org/cart
+2025-03-12 10:05:37,612 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:05:38,253 - https://web.archive.org:443 "GET /web/20240929230116/https://www.appalachiarfbc.org/cart HTTP/1.1" 200 None
+2025-03-12 10:05:39,278 - Checking https://www.appalachiarfbc.org/technical-assistance...
+2025-03-12 10:05:39,279 - Fetching https://www.appalachiarfbc.org/technical-assistance...
+2025-03-12 10:05:39,281 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:05:39,403 - https://www.appalachiarfbc.org:443 "GET /technical-assistance HTTP/1.1" 200 23817
+2025-03-12 10:05:39,470 - Fetching archive for https://www.appalachiarfbc.org/technical-assistance...
+2025-03-12 10:05:44,478 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:05:47,963 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ftechnical-assistance&timestamp=202410011405 HTTP/1.1" 200 299
+2025-03-12 10:05:47,965 - Archive found at https://web.archive.org/web/20240929114724/https://www.appalachiarfbc.org/technical-assistance
+2025-03-12 10:05:47,967 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:05:50,103 - https://web.archive.org:443 "GET /web/20240929114724/https://www.appalachiarfbc.org/technical-assistance HTTP/1.1" 200 None
+2025-03-12 10:05:51,133 - Checking https://www.appalachiarfbc.org/faq...
+2025-03-12 10:05:51,134 - Fetching https://www.appalachiarfbc.org/faq...
+2025-03-12 10:05:51,136 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:05:51,257 - https://www.appalachiarfbc.org:443 "GET /faq HTTP/1.1" 200 25929
+2025-03-12 10:05:51,327 - Fetching archive for https://www.appalachiarfbc.org/faq...
+2025-03-12 10:05:56,336 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:01,980 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ffaq&timestamp=202410011405 HTTP/1.1" 200 100
+2025-03-12 10:06:06,989 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:07,835 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ffaq&timestamp=202410011405 HTTP/1.1" 200 100
+2025-03-12 10:06:12,840 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:13,574 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Ffaq&timestamp=202410011405 HTTP/1.1" 200 100
+2025-03-12 10:06:13,576 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/faq", "archived_snapshots": {}, "timestamp": "202410011405"}
+2025-03-12 10:06:14,581 - Checking https://www.appalachiarfbc.org/non-discrimination-statement...
+2025-03-12 10:06:14,582 - Fetching https://www.appalachiarfbc.org/non-discrimination-statement...
+2025-03-12 10:06:14,584 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:06:14,706 - https://www.appalachiarfbc.org:443 "GET /non-discrimination-statement HTTP/1.1" 200 21378
+2025-03-12 10:06:14,770 - Fetching archive for https://www.appalachiarfbc.org/non-discrimination-statement...
+2025-03-12 10:06:19,777 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:22,754 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fnon-discrimination-statement&timestamp=202410011406 HTTP/1.1" 200 125
+2025-03-12 10:06:27,759 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:28,263 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fnon-discrimination-statement&timestamp=202410011406 HTTP/1.1" 200 125
+2025-03-12 10:06:33,272 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:34,022 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fnon-discrimination-statement&timestamp=202410011406 HTTP/1.1" 200 125
+2025-03-12 10:06:34,024 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/non-discrimination-statement", "archived_snapshots": {}, "timestamp": "202410011406"}
+2025-03-12 10:06:35,030 - Checking https://www.appalachiarfbc.org/programming...
+2025-03-12 10:06:35,030 - Fetching https://www.appalachiarfbc.org/programming...
+2025-03-12 10:06:35,033 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:06:35,201 - https://www.appalachiarfbc.org:443 "GET /programming HTTP/1.1" 302 0
+2025-03-12 10:06:35,248 - https://www.appalachiarfbc.org:443 "GET /business-builder-subawards HTTP/1.1" 200 25232
+2025-03-12 10:06:35,323 - Fetching archive for https://www.appalachiarfbc.org/programming...
+2025-03-12 10:06:40,331 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:45,073 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fprogramming&timestamp=202410011406 HTTP/1.1" 200 108
+2025-03-12 10:06:50,082 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:50,674 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fprogramming&timestamp=202410011406 HTTP/1.1" 200 108
+2025-03-12 10:06:55,684 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:06:56,420 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fprogramming&timestamp=202410011406 HTTP/1.1" 200 108
+2025-03-12 10:06:56,421 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/programming", "archived_snapshots": {}, "timestamp": "202410011406"}
+2025-03-12 10:06:57,426 - Checking https://www.appalachiarfbc.org/#page...
+2025-03-12 10:06:57,426 - Fetching https://www.appalachiarfbc.org/#page...
+2025-03-12 10:06:57,428 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:06:57,552 - https://www.appalachiarfbc.org:443 "GET / HTTP/1.1" 200 33672
+2025-03-12 10:06:57,645 - Fetching archive for https://www.appalachiarfbc.org/#page...
+2025-03-12 10:07:02,654 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:07,622 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2F%23page&timestamp=202410011406 HTTP/1.1" 200 264
+2025-03-12 10:07:07,623 - Archive found at https://web.archive.org/web/20240929230133/https://www.appalachiarfbc.org/
+2025-03-12 10:07:07,626 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:07:08,819 - https://web.archive.org:443 "GET /web/20240929230133/https://www.appalachiarfbc.org/ HTTP/1.1" 200 None
+2025-03-12 10:07:09,874 - Checking https://www.appalachiarfbc.org/annual-convening...
+2025-03-12 10:07:09,875 - Fetching https://www.appalachiarfbc.org/annual-convening...
+2025-03-12 10:07:09,878 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:07:10,006 - https://www.appalachiarfbc.org:443 "GET /annual-convening HTTP/1.1" 200 24478
+2025-03-12 10:07:10,083 - Fetching archive for https://www.appalachiarfbc.org/annual-convening...
+2025-03-12 10:07:15,090 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:16,426 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fannual-convening&timestamp=202410011407 HTTP/1.1" 200 113
+2025-03-12 10:07:21,435 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:21,758 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fannual-convening&timestamp=202410011407 HTTP/1.1" 200 113
+2025-03-12 10:07:26,762 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:27,574 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fannual-convening&timestamp=202410011407 HTTP/1.1" 200 113
+2025-03-12 10:07:27,576 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/annual-convening", "archived_snapshots": {}, "timestamp": "202410011407"}
+2025-03-12 10:07:28,581 - Checking https://www.appalachiarfbc.org/about-us-1...
+2025-03-12 10:07:28,582 - Fetching https://www.appalachiarfbc.org/about-us-1...
+2025-03-12 10:07:28,584 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:07:28,748 - https://www.appalachiarfbc.org:443 "GET /about-us-1 HTTP/1.1" 302 0
+2025-03-12 10:07:28,792 - https://www.appalachiarfbc.org:443 "GET /our-partners HTTP/1.1" 200 44322
+2025-03-12 10:07:28,910 - Fetching archive for https://www.appalachiarfbc.org/about-us-1...
+2025-03-12 10:07:33,912 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:34,949 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us-1&timestamp=202410011407 HTTP/1.1" 200 107
+2025-03-12 10:07:39,958 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:40,318 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us-1&timestamp=202410011407 HTTP/1.1" 200 107
+2025-03-12 10:07:45,326 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:45,792 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fabout-us-1&timestamp=202410011407 HTTP/1.1" 200 107
+2025-03-12 10:07:45,794 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/about-us-1", "archived_snapshots": {}, "timestamp": "202410011407"}
+2025-03-12 10:07:46,797 - Checking https://www.appalachiarfbc.org/business-builder-subawards...
+2025-03-12 10:07:46,797 - Fetching https://www.appalachiarfbc.org/business-builder-subawards...
+2025-03-12 10:07:46,800 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:07:46,924 - https://www.appalachiarfbc.org:443 "GET /business-builder-subawards HTTP/1.1" 200 25232
+2025-03-12 10:07:47,011 - Fetching archive for https://www.appalachiarfbc.org/business-builder-subawards...
+2025-03-12 10:07:52,016 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:07:52,656 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fbusiness-builder-subawards&timestamp=202410011407 HTTP/1.1" 200 311
+2025-03-12 10:07:52,658 - Archive found at https://web.archive.org/web/20240914190155/https://www.appalachiarfbc.org/business-builder-subawards
+2025-03-12 10:07:52,660 - Starting new HTTPS connection (1): web.archive.org:443
+2025-03-12 10:07:53,758 - https://web.archive.org:443 "GET /web/20240914190155/https://www.appalachiarfbc.org/business-builder-subawards HTTP/1.1" 200 None
+2025-03-12 10:07:54,795 - Checking https://www.appalachiarfbc.org/resources...
+2025-03-12 10:07:54,795 - Fetching https://www.appalachiarfbc.org/resources...
+2025-03-12 10:07:54,796 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:07:54,965 - https://www.appalachiarfbc.org:443 "GET /resources HTTP/1.1" 302 0
+2025-03-12 10:07:55,009 - https://www.appalachiarfbc.org:443 "GET /faq HTTP/1.1" 200 25929
+2025-03-12 10:07:55,082 - Fetching archive for https://www.appalachiarfbc.org/resources...
+2025-03-12 10:08:00,089 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:08:06,038 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fresources&timestamp=202410011407 HTTP/1.1" 200 106
+2025-03-12 10:08:11,042 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:08:11,530 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fresources&timestamp=202410011407 HTTP/1.1" 200 106
+2025-03-12 10:08:16,539 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:08:16,843 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fresources&timestamp=202410011407 HTTP/1.1" 200 106
+2025-03-12 10:08:16,844 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/resources", "archived_snapshots": {}, "timestamp": "202410011407"}
+2025-03-12 10:08:17,850 - Checking https://www.appalachiarfbc.org/press-releases...
+2025-03-12 10:08:17,850 - Fetching https://www.appalachiarfbc.org/press-releases...
+2025-03-12 10:08:17,852 - Starting new HTTPS connection (1): www.appalachiarfbc.org:443
+2025-03-12 10:08:17,973 - https://www.appalachiarfbc.org:443 "GET /press-releases HTTP/1.1" 200 23059
+2025-03-12 10:08:18,046 - Fetching archive for https://www.appalachiarfbc.org/press-releases...
+2025-03-12 10:08:23,054 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:08:28,619 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fpress-releases&timestamp=202410011408 HTTP/1.1" 200 111
+2025-03-12 10:08:33,628 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:08:34,271 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fpress-releases&timestamp=202410011408 HTTP/1.1" 200 111
+2025-03-12 10:08:39,277 - Starting new HTTPS connection (1): archive.org:443
+2025-03-12 10:08:39,592 - https://archive.org:443 "GET /wayback/available?url=https%3A%2F%2Fwww.appalachiarfbc.org%2Fpress-releases&timestamp=202410011408 HTTP/1.1" 200 111
+2025-03-12 10:08:39,594 - ERROR fetching archive: {"url": "https://www.appalachiarfbc.org/press-releases", "archived_snapshots": {}, "timestamp": "202410011408"}
+2025-03-12 10:08:40,599 - Processing complete. Found 6 changes.
+2025-03-12 10:08:40,600 - Writing results to /Users/joshuabrown/Documents/rf/dei_changes_detailed.txt...
+2025-03-12 10:08:40,602 - Results successfully written.
+2025-03-12 10:08:40,602 - Script finished. Check dei_changes_detailed.txt in the rf directory under Documents.
