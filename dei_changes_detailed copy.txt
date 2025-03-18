@@ -5,55 +5,45 @@ Keyword Removed: underserved
 Wayback URL: https://web.archive.org/web/20240929230133/https://www.appalachiarfbc.org/
 Context: access, with a focus on underserved farmers and food businesses.with a
 
-URL: https://www.appalachiarfbc.org/about-us
+URL: https://www.appalachiarfbc.org/#page
+Keyword Removed: underserved
+Wayback URL: https://web.archive.org/web/20240929230133/https://www.appalachiarfbc.org/
+Context: access, with a focus on underserved farmers and food businesses.with a
+
+URL: https://heartlandfoodbusiness.org/about/
 Keyword Removed: equitable
-Wayback URL: https://web.archive.org/web/20241001091250/https://www.appalachiarfbc.org/about-us
-Context: foster communities where everyone has equitable access to healthy, local food.
+Wayback URL: https://web.archive.org/web/20241002162105/https://heartlandfoodbusiness.org/about/
+Context: community wealth that resilient and equitable food systems build by increasing
 
-URL: https://www.appalachiarfbc.org/about-us
-Keyword Removed: equitable
-Wayback URL: https://web.archive.org/web/20241001091250/https://www.appalachiarfbc.org/about-us
-Context: catalyst for a thriving and equitable local food system that is
+URL: https://heartlandfoodbusiness.org/about/
+Keyword Removed: underserved
+Wayback URL: https://web.archive.org/web/20241002162105/https://heartlandfoodbusiness.org/about/
+Context: small, mid-size, diverse, and historically underserved food and farm entrepreneurs benefit
 
-URL: https://www.appalachiarfbc.org/about-us
-Keyword Removed: equitable
-Wayback URL: https://web.archive.org/web/20241001091250/https://www.appalachiarfbc.org/about-us
-Context: foods to promote healthy individuals, equitable communities and thriving local economies.
+URL: https://heartlandfoodbusiness.org/about/
+Keyword Removed: underserved
+Wayback URL: https://web.archive.org/web/20241002162105/https://heartlandfoodbusiness.org/about/
+Context: small, mid-size, diverse, and historically underserved entrepreneurs and communities, including but
 
-URL: https://www.appalachiarfbc.org/about-us
-Keyword Removed: inclusive
-Wayback URL: https://web.archive.org/web/20241001091250/https://www.appalachiarfbc.org/about-us
-Context: a more equitable, sustainable, and inclusive food system by providing practical
+URL: https://heartlandfoodbusiness.org/about/
+Keyword Removed: underserved
+Wayback URL: https://web.archive.org/web/20241002162105/https://heartlandfoodbusiness.org/about/
+Context: reaching and serving underrepresented and underserved groups, from small rural and
 
-URL: https://www.appalachiarfbc.org/about-us
-Keyword Removed: inclusive
-Wayback URL: https://web.archive.org/web/20241001091250/https://www.appalachiarfbc.org/about-us
-Context: principle that locally-based, sustainable, and inclusive development is the main strategy
+URL: https://heartlandfoodbusiness.org/about/
+Keyword Removed: minority
+Wayback URL: https://web.archive.org/web/20241002162105/https://heartlandfoodbusiness.org/about/
+Context: urban farms to indigenous and minority communities.
 
 URL: https://www.indianag.org/annual-conference
 Keyword Removed: equitable
 Wayback URL: https://web.archive.org/web/20240914132026/https://www.indianag.org/annual-conference
 Context: our flagship event provides equitable access to resources for tribes
 
-URL: https://www.indianag.org/intertribalfbc
-Keyword Removed: inclusive
-Wayback URL: https://web.archive.org/web/20241005145636/https://www.indianag.org/intertribalfbc
-Context: aims to be supportive and inclusive of the needs of indian
-
-URL: https://www.indianag.org/intertribalfbc
-Keyword Removed: inclusive
-Wayback URL: https://web.archive.org/web/20241005145636/https://www.indianag.org/intertribalfbc
-Context: our eligibility criteria to be inclusive in every way possible as
-
-URL: https://www.indianag.org/intertribalfbc
-Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20241005145636/https://www.indianag.org/intertribalfbc
-Context: broken food systems that have underserved and exploited native peoples for
-
-URL: https://www.indianag.org/intertribalfbc
-Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20241005145636/https://www.indianag.org/intertribalfbc
-Context: they will conduct outreach to underserved communities and businesses.
+URL: https://www.indianag.org/policy
+Keyword Removed: equitable
+Wayback URL: https://web.archive.org/web/20241001232049/https://www.indianag.org/policy
+Context: agriculture—economic development, parity for tribes, equitable access to federal programming, and
 
 URL: https://www.nasda.org/nasda-foundation/northeast-regional-food-business-center/
 Keyword Removed: inclusion
@@ -70,20 +60,10 @@ Keyword Removed: diversity
 Wayback URL: https://web.archive.org/web/20240926221819/https://www.nasda.org/nasda-foundation/northeast-regional-food-business-center/
 Context: increase the amount and diversity of regionally grown products and
 
-URL: https://nwrockymountainregionalfoodbusiness.com/colorado/
+URL: https://nwrockymountainregionalfoodbusiness.com
 Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20241225032932/https://nwrockymountainregionalfoodbusiness.com/colorado/
-Context: represent key stakeholders and sectors, underserved communities, and experts in key
-
-URL: https://nwrockymountainregionalfoodbusiness.com/latest-from-the-center/
-Keyword Removed: inclusive
-Wayback URL: https://web.archive.org/web/20250311195609/https://nwrockymountainregionalfoodbusiness.com/latest-from-the-center/
-Context: necessary for a resilient and inclusive food system.
-
-URL: https://nwrockymountainregionalfoodbusiness.com/latest-from-the-center/
-Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20250311195609/https://nwrockymountainregionalfoodbusiness.com/latest-from-the-center/
-Context: special focus on supporting historically underserved farmers and food businesses.
+Wayback URL: https://web.archive.org/web/20240926224851/https://nwrockymountainregionalfoodbusiness.com/
+Context: opportunities, with a focus on underserved farmers, ranchers, and food businesses.learn
 
 URL: https://nwrockymountainregionalfoodbusiness.com/about/
 Keyword Removed: equitable
@@ -140,25 +120,40 @@ Keyword Removed: underserved
 Wayback URL: https://web.archive.org/web/20240914040639/https://nwrockymountainregionalfoodbusiness.com/about/
 Context: establishing and deepening partnerships with underserved communities will further expand our
 
-URL: https://nwrockymountainregionalfoodbusiness.com
+URL: https://nwrockymountainregionalfoodbusiness.com/scaling-food/
 Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20240926224851/https://nwrockymountainregionalfoodbusiness.com/
-Context: opportunities, with a focus on underserved farmers, ranchers, and food businesses.learn
+Wayback URL: https://web.archive.org/web/20241222154255/https://nwrockymountainregionalfoodbusiness.com/scaling-food/
+Context: focus on elevating access for underserved audiences download theme overview pdf
 
-URL: https://nwrockymountainregionalfoodbusiness.com/investing-and-infrastructure/
-Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20241224224404/https://nwrockymountainregionalfoodbusiness.com/investing-and-infrastructure/
-Context: underserved and priority communities – black,
-
-URL: https://nwrockymountainregionalfoodbusiness.com/business-builder/
+URL: https://nwrockymountainregionalfoodbusiness.com/application-process/
 Keyword Removed: underinvested
-Wayback URL: https://web.archive.org/web/20241225214117/https://nwrockymountainregionalfoodbusiness.com/business-builder/
-Context: but are not limited to: underinvested businesses and geographic areas farm
+Wayback URL: https://web.archive.org/web/20250117042248/https://nwrockymountainregionalfoodbusiness.com/application-process/
+Context: of collaboration for projects benefiting underinvested communities (if applicable)project description and
 
-URL: https://swfoodbiz.org/about-us/faq/
+URL: https://nwrockymountainregionalfoodbusiness.com/application-process/
+Keyword Removed: diversity
+Wayback URL: https://web.archive.org/web/20250117042248/https://nwrockymountainregionalfoodbusiness.com/application-process/
+Context: regional food business centers prioritize diversity and equal access to our
+
+URL: https://nwrockymountainregionalfoodbusiness.com/oregon/
 Keyword Removed: underserved
-Wayback URL: https://web.archive.org/web/20241002022513/https://swfoodbiz.org/about-us/faq/
-Context: utah with a focus on underserved communities.
+Wayback URL: https://web.archive.org/web/20241224212453/https://nwrockymountainregionalfoodbusiness.com/oregon/
+Context: represent key stakeholders and sectors, underserved communities, and experts in key
+
+URL: https://southeastrfbc.org/
+Keyword Removed: equitable
+Wayback URL: https://web.archive.org/web/20240926231715/https://southeastrfbc.org/
+Context: other partners to build more equitable and resilient local and regional
+
+URL: https://southeastrfbc.org/
+Keyword Removed: equitable
+Wayback URL: https://web.archive.org/web/20240926231715/https://southeastrfbc.org/
+Context: investment guarantee pool – creates equitable access to capital by developing
+
+URL: https://southeastrfbc.org/
+Keyword Removed: inclusive
+Wayback URL: https://web.archive.org/web/20240926231715/https://southeastrfbc.org/
+Context: envision more just, equitable, and inclusive local and regional food systems
 
 URL: https://swfoodbiz.org/
 Keyword Removed: underserved
@@ -170,4 +165,14 @@ Keyword Removed: diversity
 Wayback URL: https://web.archive.org/web/20241001233608/https://swfoodbiz.org/
 Context: groceries for the diaspora groceries diversity suppliers summit, taking place on
 
-Total Number of Removed Keywords: 34
+URL: https://swfoodbiz.org
+Keyword Removed: underserved
+Wayback URL: https://web.archive.org/web/20241001233608/https://swfoodbiz.org/
+Context: a brighter, healthier future for underserved communities.
+
+URL: https://swfoodbiz.org
+Keyword Removed: diversity
+Wayback URL: https://web.archive.org/web/20241001233608/https://swfoodbiz.org/
+Context: groceries for the diaspora groceries diversity suppliers summit, taking place on
+
+Total Number of Removed Keywords: 35
